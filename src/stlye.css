@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+ font-family: "Gabarito";
+}
+*::-webkit-scrollbar{
+	width: 0;
+	height: 0;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+	width: 100%;
+	height: 100vh;
+	background-color: #080b09f7;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+ gap: 15px;
+	width: 800px;
+	height: 650px;
+	background-color: #0dc5692d;
+	padding: 15px 20px;
+ border-radius: 25px;
+	overflow: scroll;
+	scroll-behavior: unset;
+}
+input {
+	width: 600px;
+	height: 50px;
+ padding: 25px;
+ border: 2px solid #ccc;
+ border-radius: 15px;
+ transition: border-color 0.3s ease;
+}
+input:focus {
+ border-color: #ff8c00;
+ box-shadow: 0 0 5px #ff8c00;
+}
+.section{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+form{
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+}
+select{
+ width: 600px;
+ height: 50px;
+ border: 2px solid #ccc;
+ border-radius: 15px;
+ transition: border-color 0.3s ease;
+	font-size: 20px;
+}
+h2{
+ font-size: 30px;
+ color: #fff200;
+}
+label{
+ font-size: 20px;
+ color: #fff200;
+}
+option{
+font-size: 20px;
+}
+.sumbit{
+	width: 200px;
+	height: 60px;
+	position: absolute;
+	right:100px;
+	bottom: 45px;
+	font-size: 20px;
+	padding: 0;
+	background-color: #0dc5692d;
+	color: #fff200;
+	border: none;
+	box-shadow: 2px 1px black inset;
+}
+.errorbrand ,.errorurl,.errordescription{
+	color: red;
+	font-size: 18px;
+
+}

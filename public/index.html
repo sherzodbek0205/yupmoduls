@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lesson-62</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+	<body>
+		<div class="container">
+			<h2>Business details</h2>
+			<form>
+				<label for="fname">Brand name (In English) *</label>
+				<input type="text" class="brand" name="firstname" placeholder="Brand name (In English)" />
+				<span class="errorbrand"></span>
+				<label for="lname">Description (optional)</label>
+				<input type="text" class="description" name="lastname" placeholder="Description" />
+				<span class="errordescription"></span>
+				<label for="lname">Description (URL) *</label>
+				<input type="text" class="website" name="lastname" placeholder="Website (URL)" />
+				<span class="errorurl"></span>
+				<label for="country">Country *</label>
+				<select class="country" name="country">
+					<option value="australia">United Arab Emirates 🇦🇪 E</option>
+					<option value="canada">United States 🇺🇸</option>
+					<option value="usa">Canada 🇨🇦</option>
+				</select>
+				<label for="category">Category *</label>
+				<select  class="category" name="country">
+					<option value="Customer Success">Customer Success</option>
+					<option value="Dev Ops">Dev Ops</option>
+					<option value="Data Analytics">Data Analytics</option>
+					<option value="Finance">Finance</option>
+					<option value="Productivity Tools">Productivity Tools</option>
+					<option value="People & HR">People & HR</option>
+					<option value="Product">Product</option>
+					<option value="Sales Marketing">Sales Marketing</option>
+					<option value="Customer Support">Customer Support</option>
+					<option value="other">Other</option>
+				</select>
+				<button class="sumbit" type="submit">Sumbit</button>
+			</form>
+		</div>
+	</body>
+</html>
+
